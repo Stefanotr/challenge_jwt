@@ -1,0 +1,7 @@
+services:
+  jwt-challenge:
+    build: .
+    container_name: ctf_jwt_server
+    ports:
+      - "443:443"
+    restart: always
